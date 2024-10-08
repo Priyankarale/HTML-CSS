@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid bisque;
+}
+.box1 {
+  border-top: solid blue 4px;
+}
+.box2 {
+  border-radius: 10px;
+  /* border-radius: 50%; */
+}
+.box3 {
+  border-top-left-radius: 15px;
+}

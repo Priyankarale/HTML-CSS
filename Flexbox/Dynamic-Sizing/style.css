@@ -1,0 +1,19 @@
+.flex-container {
+  background-color: lightblue;
+  width: 100%;
+  display: flex;
+}
+.flex-item {
+  background-color: coral;
+  border: 1px solid black;
+  padding: 20px;
+  flex: 1;
+}
+/* .item1 { */
+/* flex-shrink: 1; */
+/* flex-grow: 1; */
+/* } */
+/* .item3 { */
+/* flex-shrink: 1; */
+/* flex-grow: 2; */
+/* } */
