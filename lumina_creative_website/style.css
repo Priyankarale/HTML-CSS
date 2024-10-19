@@ -77,6 +77,30 @@ img {
 .bg__primary {
   background-color: var(--primary_color);
 }
+.gallery-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery-item {
+  width: calc(30.333% - 20px);
+  border-radius: 10px;
+}
+.footer .footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer img {
+  width: 120px;
+  height: center;
+}
+.footer h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
 @media (max-width: 768px) {
   .header .header-flex {
     flex-direction: column;
@@ -87,5 +111,10 @@ img {
   }
   .hero h2 {
     font-size: 1.8rem;
+  }
+  .footer .footer-flex {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
   }
 }
