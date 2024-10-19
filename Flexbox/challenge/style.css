@@ -3,43 +3,66 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Poppins", sans-serif;
-  line-height: 1.5;
-}
-header {
-  background-color: coral;
-  /* margin: 0px 0px 0px 0px; */
-  padding: 20px;
-  width: 100%;
-  height: 100px;
-  text-transform: capitalize;
-}
-nav {
-  background-color: #ccc;
-  width: 100%;
-  height: 50px;
 }
 
-.menu {
-  display: flex;
+ul {
+  list-style-type: none;
 }
-li {
-  list-style: none;
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: coral;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.header {
+  background: coral;
+  padding: 40px;
+}
+
+.main-menu {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.main-menu a {
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+  gap: 70px;
+  padding: 40px;
+}
+
+.main section {
+  flex: 1; /* Take up remaining space */
+}
+
+.main aside {
+  width: 300px;
+}
+
+.main aside h3 {
   padding: 10px;
-  margin: 2px 10px 5px 5px;
-  font-size: 18px;
+  background: coral;
+  color: #fff;
 }
-main {
-  display: flex;
-  width: 100%;
-  margin-top: 22px;
-  margin-left: 22px;
-  flex: 1;
-}
-.content {
-  width: 70%;
-}
-.table {
-  border: 1px solid black;
+
+.main aside li {
+  padding: 10px;
+  background: #f4f4f4;
+  border-bottom: 1px solid #ccc;
 }

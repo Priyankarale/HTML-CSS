@@ -4,11 +4,17 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 20px;
+  font-size: 16px;
 }
 .container {
   max-width: 900px;
   margin: 20px auto;
   padding: 20px;
   border: 1px solid black;
+}
+.container h1 {
+  font-size: 2rem;
+}
+.container p {
+  font-size: 1.8rem;
 }
